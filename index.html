@@ -12,14 +12,18 @@
 <body>
     <h1>hw-04: Event Handling</h1>
     <div class="flex-container">
+        <!--left column, containing plot with points-->
         <div class="column" id="leftColumn">
             <svg id="plot" width="250" height="250" x="1000" y="1000">
+                <!--axes-->
                 <line x1=0 y1=0 x2=0 y2=250 class="axis"/>
                 <line x1=0 y1=250 x2=250 y2=250 class="axis"/>
             </svg>
         </div>
+        <!--right column, containing user interface-->
         <div class="column" id="rightColumn">
             <div id=lastClicked></div>
+            <!--selection menus for x, y coordinates-->
             <label for="x-coordinate">Select the x coordinate for the point you want to add.</label>
                 <select name="x-coordinate" id="x-coordinate">
                     <option value=1>1</option>

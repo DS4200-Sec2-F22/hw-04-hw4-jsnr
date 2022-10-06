@@ -6,6 +6,7 @@ h1,h2 {
 	text-align: center;
 }
 
+/*putting columns next to one another*/
 .flex-container {
 	display: flex;
 	flex-direction: row;
@@ -24,17 +25,17 @@ h1,h2 {
 	display: none;
 }
 
+
+/*point and image formatting*/
 .point {
 	fill: darkred;
 	stroke: black;
 	stroke-width: 0;
-
 }
 
 .point:hover {
 	fill: orange;
 }
-
 
 .axis {
 	stroke: rgb(0,0,0);
