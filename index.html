@@ -3,11 +3,50 @@
 
 <head>
     <meta charset=utf-8/>
+    <title>hw-04</title> 
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 
 <body>
-
+    <h1>hw-04: Event Handling</h1>
+    <div class="flex-container">
+        <div class="column" id="leftColumn">
+            <svg id="plot" width="250" height="250" x="1000" y="1000">
+                <line x1=0 y1=0 x2=0 y2=250 class="axis"/>
+                <line x1=0 y1=250 x2=250 y2=250 class="axis"/>
+            </svg>
+        </div>
+        <div class="column" id="rightColumn">
+            <label for="x-coordinate">Select the x coordinate for the point you want to add.</label>
+                <select name="x-coordinate" id="x-coordinate">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                </select><br><br>
+            <label for="y-coordinate">Select the y coordinate for the point you want to add.</label>
+                <select name="y-coordinate" id="y-coordinate">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                </select><br><br>
+            <button type = "button" id = "addPointButton">Add point!</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
 
 </body>
 

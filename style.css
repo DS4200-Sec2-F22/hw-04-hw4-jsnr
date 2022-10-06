@@ -1,0 +1,40 @@
+body {
+	font-family: Arial;
+}
+
+h1 {
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+
+
+#leftColumn {
+	width: 60%;
+}
+
+#rightColumn {
+	width: 40%;
+}
+
+.point {
+	fill: darkred;
+
+}
+
+.point:hover {
+	fill: orange;
+}
+
+.point:click {
+	stroke: black;
+	stroke-width: "2";
+}
+
+.axis {
+	stroke: rgb(0,0,0);
+	stroke-width: 5;
+}
